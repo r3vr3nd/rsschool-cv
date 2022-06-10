@@ -1,0 +1,240 @@
+
+body{
+    background-color: #d6d6d6;
+    margin: 0;
+    position: relative;
+}
+main{
+    margin-top: 150px;
+}
+.grey{
+    background-color: #ababab;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 1pxpx;
+    color: #ab879c; 
+    margin-top: 85px;
+}
+h2{
+    font-family: Impact, Haettenschweiler, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #4f4f4f
+}
+hr {
+    border: none; 
+    background-color: #ab879c; 
+    color: #ab879c;
+    height: 3px; 
+   }
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    top: 0;
+    width: 100%;
+}
+.menu{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 5px 0;
+}
+.cvnav ul{
+    text-align: center;
+}
+.cvnav ul li{
+    display: inline-block;
+    margin-right: 10%;
+}
+.cvnav ul li a{
+    color: #4f4f4f;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+}
+.cvnav ul li a:hover{
+    color: #ab879c;
+}
+.autor{
+    width: 70%;
+    margin: auto;
+    margin-top: 150px;
+}
+.photo img{
+    border-radius: 50%;
+    height: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info{
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+.info p{
+    font-size: 25px;
+    line-height: 40px;
+}
+.language{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+}
+.language ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 25px;
+    line-height: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #4f4f4f;
+    margin-bottom: 30px;
+
+}
+.education{
+    font-size: 25px;
+    line-height: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#skills{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.subtitle{
+    font-size: 30px;
+}
+
+#skills ul{
+    list-style-type: none;
+    display: inline-block;
+    padding-bottom: 3%;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+#skills ul li{
+    font-size: 25px;
+    line-height: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #4f4f4f;
+    text-align: left;
+    }
+#code{
+    padding: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+}
+.codebox{
+    background-color: white;
+    display: inline-block;
+    padding: 32px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+.codebox code{
+    color: #4f4f4f;
+    font-size: 25px;
+    margin-bottom: 45PX;
+}
+a.btn{
+    color: #4f4f4f;
+    padding: 10px 20px;
+    width: 165px;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px auto;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%,#ab879c 50%,#ab879c);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    font: 400 27px tahoma;
+    border: 3px solid #ab879c;
+   }
+a.btn:hover {
+   background-position: 0 0;
+   color:#fff;
+}
+#contacts{
+    padding: 30px 80px 150px 80px;
+    text-align: center;
+}
+.mycontacts{
+    display: inline-block;
+    padding: 32px;
+    margin-bottom: 30px;
+}
+.mycontacts ul{
+    list-style: none;
+    padding: 0;
+}
+.mycontacts li {
+    font-size: 40px;
+    line-height: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #4f4f4f;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.foot{
+    height: 110px;
+    padding: 15px 10px 10px 10px;
+}
+.logo{
+    display: inline-block;
+    float: left;
+}
+.logo a {
+    background: url(images/logo.png) no-repeat;
+    display: inline-block;
+    height: 70px;
+    width: 195px;
+    margin-top: 10px;
+}
+.logo a:hover{
+    background: url(images/logo2.png) no-repeat;
+}
+.mygit{
+    display: inline-block;
+    float: right;
+    margin-top: 30px;
+    text-align: center;
+}
+.mygit a{
+    text-decoration: none;
+    margin-top: 26px;
+    font-size: 29px;
+    line-height: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #4f4f4f;
+    background: url(images/git_logo.png) no-repeat;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.mygit a:hover{
+    color: #ab879c;
+    background: url(images/git_logo2.png) no-repeat;
+}
+.mygit p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    margin-top: 20px;
+}
+.scale {
+    transition: 1s;
+}
+.scale:hover {
+    transform: scale(1.2);
+}
